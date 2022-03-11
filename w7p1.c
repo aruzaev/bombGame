@@ -96,7 +96,7 @@ int main()
 	int max = 5; // max for the first loop
 	for (i = 1; i <= steps; i++) // loop until i is equal to the steps #
 	{
-		printf("   Positions [ %d-%d]: ", min, max);
+		printf("   Positions [%2d-%2d]: ", min, max);
 		// scanning for 5 bomb positions with a space between
 		scanf("%d %d %d %d %d", &gmInfo.bombs[min], &gmInfo.bombs[min + 1],
 				&gmInfo.bombs[min + 2], &gmInfo.bombs[min + 3], 
@@ -118,7 +118,7 @@ int main()
 
 	for (i = 1; i <= steps; i++)
 	{
-		printf("   Positions [ %d-%d]: ", min, max);
+		printf("   Positions [%2d-%2d]: ", min, max);
 		scanf("%d %d %d %d %d", &gmInfo.treasures[min],
 				&gmInfo.treasures[min + 1], &gmInfo.treasures[min + 2], 
 				&gmInfo.treasures[min + 3], &gmInfo.treasures[min + 4]);
