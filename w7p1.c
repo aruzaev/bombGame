@@ -45,7 +45,7 @@ int main()
 	printf("Player configuration set-up is complete\n\n");
 
 	printf("GAME Configuration\n");
-	printf("--------------------\n");
+	printf("------------------\n");
 
 	do
 	{
