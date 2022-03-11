@@ -1,3 +1,17 @@
+/*
+*****************************************************************************
+                          Workshop - #7 (P1)
+Full Name  : Artem Ruzaev
+Student ID#: 124086216
+Email      : aruzaev@myseneca.ca
+Section    : NPP
+Authenticity Declaration:
+I declare this submission is the result of my own work and has not been
+shared with any other student or 3rd party content provider. This submitted
+piece of work is entirely of my own creation.
+*****************************************************************************
+*/
+
 #define MAX_PATH_LENGTH 70 // setting path limit
 #include <stdio.h> // standard input output library
 
