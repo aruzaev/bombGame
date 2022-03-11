@@ -82,7 +82,7 @@ int main()
 	int max = 5; // max for the first loop
 	for (i = 1; i <= steps; i++) // loop until i is equal to the steps #
 	{
-		printf("   Positions [ %d- %d]: ", min, max);
+		printf("   Positions [ %d-%d]: ", min, max);
 		// scanning for 5 bomb positions with a space between
 		scanf("%d %d %d %d %d", &gmInfo.bombs[min], &gmInfo.bombs[min + 1],
 				&gmInfo.bombs[min + 2], &gmInfo.bombs[min + 3], 
@@ -104,7 +104,7 @@ int main()
 
 	for (i = 1; i <= steps; i++)
 	{
-		printf("   Positions [ %d- %d]: ", min, max);
+		printf("   Positions [ %d-%d]: ", min, max);
 		scanf("%d %d %d %d %d", &gmInfo.treasures[min],
 				&gmInfo.treasures[min + 1], &gmInfo.treasures[min + 2], 
 				&gmInfo.treasures[min + 3], &gmInfo.treasures[min + 4]);
@@ -126,17 +126,17 @@ int main()
 	printf("   History    : [ready for gameplay]\n\n");
 	printf("Game:\n");
 	printf("   Path Length: %d\n", gmInfo.pathLength);
-	printf("   Bombs      :");
+	printf("   Bombs      : ");
 	
 	for (i = 1; i <= gmInfo.pathLength; i++) // loop through the path
 	{
-		printf(" %d", gmInfo.bombs[i]); // print the bomb positions
+		printf("%d", gmInfo.bombs[i]); // print the bomb positions
 	}
-	printf("\n   Treasure   :");
+	printf("\n   Treasure   : ");
 	
 	for (i = 1; i <= gmInfo.pathLength; i++) 
 	{
-		printf(" %d", gmInfo.treasures[i]); 
+		printf("%d", gmInfo.treasures[i]); 
 	}
 
 	printf("\n\n====================================\n");
